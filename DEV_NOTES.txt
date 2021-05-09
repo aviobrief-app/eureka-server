@@ -1,7 +1,0 @@
-Mervin,
-Section 3 discusses the Eureka Server. Since the Eureka server is the application that holds all the route information
-it does not need to be a client as well. Each service that connects to the Eureka service needs to be configured
- as a Eureka client. This is accomplished by adding the spring-cloud-starter-eureka dependency.
-
- Adding the @EnableEurekaClient annotation is optional in a boot application as adding the dependency is enough
- to trigger client construction on start up.
